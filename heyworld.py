@@ -1,3 +1,4 @@
 msg = "hey world"
 
-print(msg)
+print("original= " + msg)
+print("caps'd= " + msg.capitalize())
