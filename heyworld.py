@@ -1,4 +1,4 @@
-msg = "hey world"
+msg = "Hey world"
 
 print("original= " + msg)
 print("caps'd= " + msg.capitalize())
@@ -9,3 +9,6 @@ print(stringTest)
 aFloat = 8.2
 floatStr = "This here be a float, matey: "
 print(floatStr, aFloat)
+
+firstLetter = msg[0]
+print(firstLetter)
